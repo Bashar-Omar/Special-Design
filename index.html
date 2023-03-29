@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Special Design</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="CSS/all.min.css" />
+    <link rel="stylesheet" href="CSS/normalize.css" />
+    <link rel="stylesheet" href="CSS/style.css" />
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap"
+    />
+    <link rel="web icon" href="images/incodey-SiteIcon.jpg" />
+  </head>
+  <body>
+    <!-- Start Settings Box -->
+    <div class="settings-box">
+      <div class="toggle-settings">
+        <i class="fa-solid fa-gear setting-gear"></i>
+      </div>
+      <div class="settings-container">
+        <div class="option-box">
+          <h4>Change Colors</h4>
+          <ul class="colors-list">
+            <li data-color="#ff9800" class="active"></li>
+            <li data-color="#e91e63"></li>
+            <li data-color="#009688"></li>
+            <li data-color="#03a9f4"></li>
+            <li data-color="#4caf50"></li>
+          </ul>
+        </div>
+        <div class="option-box">
+          <h4>Random Backgrounds</h4>
+          <div class="random-background">
+            <span class="enable active" data-background="enable">Enable</span>
+            <span class="disable" data-background="disable">Disable</span>
+          </div>
+        </div>
+        <div class="option-box">
+          <h4>Show Bullets</h4>
+          <div class="bullets-option">
+            <span class="enable active" data-display="show">Enable</span>
+            <span class="disable" data-display="hide">Disable</span>
+          </div>
+        </div>
+        <button class="reset-options">Reset Options</button>
+      </div>
+    </div>
+    <!-- End Settings Box -->
+    <!-- Start Navigation Bullets -->
+    <div class="nav-bullets">
+      <div data-section=".about-us" class="bullet">
+        <div class="tooltip">About US</div>
+      </div>
+      <div data-section=".skills" class="bullet">
+        <div class="tooltip">Our Skills</div>
+      </div>
+      <div data-section=".gallery" class="bullet">
+        <div class="tooltip">Our Gallery</div>
+      </div>
+      <div data-section=".timeline" class="bullet">
+        <div class="tooltip">Timeline History</div>
+      </div>
+    </div>
+    <!-- End Navigation Bullets -->
+    <!-- Start Landing Page -->
+    <div class="landing-page">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="header-araa">
+          <div class="logo"><a href="#">Special Desig</a></div>
+          <div class="links-container">
+            <ul class="links">
+              <li>
+                <a href="" data-section=".about-us" class="active">About</a>
+              </li>
+              <li><a href="#" data-section=".skills">Skills</a></li>
+              <li><a href="#" data-section=".gallery">Gallery</a></li>
+              <li><a href="#" data-section=".timeline">Timeline</a></li>
+            </ul>
+            <button class="toggle-menu">
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="intro">
+        <h1>We Are <span>Creative</span> Agency</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque quae
+          quis autem sunt exercitationem quia, vero eum inventore qui quidem.
+          quis autem sunt exercitationem
+        </p>
+      </div>
+    </div>
+    <!-- End Landing Page -->
+    <!-- Start About US -->
+    <div class="container">
+      <div class="about-us" id="about">
+        <div class="info-box">
+          <h2 class="main-heading heading">About Us</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
+            quia quisquam eligendi dolores incidunt voluptatibus ad officia
+            omnis aliquid nulla ad officia omnis aliquid nulla.
+          </p>
+        </div>
+        <div class="image-box">
+          <img src="images/about-us.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+    <!-- End About US -->
+    <!-- Start Our Skills -->
+    <div class="skills" id="skills">
+      <div class="container">
+        <h2 class="main-heading heading">Our Skills</h2>
+        <div class="skill-box">
+          <div class="skill-name">Html</div>
+          <div class="skill-progress">
+            <span data-progress="80%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">CSS</div>
+          <div class="skill-progress">
+            <span data-progress="70%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">JavaScript</div>
+          <div class="skill-progress">
+            <span data-progress="90%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">Python</div>
+          <div class="skill-progress">
+            <span data-progress="70%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">PHP</div>
+          <div class="skill-progress">
+            <span data-progress="80%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">MySql</div>
+          <div class="skill-progress">
+            <span data-progress="70%"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Our Skills -->
+    <!-- Start Our Gallery -->
+    <div class="gallery" id="gallery">
+      <div class="container">
+        <h2 class="main-heading heading">Our Gallery</h2>
+        <div class="imges-box">
+          <img src="images/01.jpg" alt="Image One" />
+          <img src="images/02.jpg" alt="Image Two" />
+          <img src="images/03.jpg" alt="Image Three" />
+          <img src="images/04.jpg" alt="Image Four" />
+          <img src="images/05.jpg" alt="Image Five" />
+          <img src="images/06.png" alt="" />
+          <img src="images/07.jpg" alt="" />
+          <img src="images/08.jpg" alt="" />
+          <img src="images/09.jpg" alt="" />
+          <img src="images/10.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+    <!-- End Our Gallery -->
+    <!-- Start Timeline -->
+    <div class="timeline" id="timeline">
+      <div class="container">
+        <div class="timeline-content">
+          <div class="year">2018</div>
+          <div class="left">
+            <div class="content">
+              <h3>Timeline History</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Praesentium et eligendi omnis ducimus possimus perspiciatis
+                cumque in quam quos voluptatum eos blanditiis a nostrum nobis
+                ullam, hic at cupiditate. Enim!
+              </p>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <div class="right">
+            <div class="content">
+              <h3>Timeline History</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Praesentium et eligendi omnis ducimus possimus perspiciatis
+                cumque in quam quos voluptatum eos blanditiis a nostrum nobis
+                ullam, hic at cupiditate. Enim!
+              </p>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <div class="year">2016</div>
+          <div class="left">
+            <div class="content">
+              <h3>Timeline History</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Praesentium et eligendi omnis ducimus possimus perspiciatis
+                cumque in quam quos voluptatum eos blanditiis a nostrum nobis
+                ullam, hic at cupiditate. Enim!
+              </p>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <div class="right">
+            <div class="content">
+              <h3>Timeline History</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Praesentium et eligendi omnis ducimus possimus perspiciatis
+                cumque in quam quos voluptatum eos blanditiis a nostrum nobis
+                ullam, hic at cupiditate. Enim!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Timeline -->
+    <!-- Start Our Features -->
+    <div class="features">
+      <div class="container">
+        <h2 class="main-heading heading">Our Features</h2>
+        <div class="feat-box">
+          <img src="images/Icon_01.png" alt="" />
+          <h4>Development</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
+            sapiente maiores sed labore cumque.
+          </p>
+        </div>
+        <div class="feat-box">
+          <img src="images/Icon_02.png" alt="" />
+          <h4>Marketing</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
+            sapiente maiores sed labore cumque.
+          </p>
+        </div>
+        <div class="feat-box">
+          <img src="images/Icon_03.png" alt="" />
+          <h4>Hosting</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
+            sapiente maiores sed labore cumque.
+          </p>
+        </div>
+        <div class="feat-box">
+          <img src="images/Icon_04.png" alt="" />
+          <h4>DataBase</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
+            sapiente maiores sed labore cumque.
+          </p>
+        </div>
+        <div class="feat-box">
+          <img src="images/Icon_05.png" alt="" />
+          <h4>Cloud And Servers</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
+            sapiente maiores sed labore cumque.
+          </p>
+        </div>
+        <div class="feat-box">
+          <img src="images/Icon_06.png" alt="" />
+          <h4>Seo</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
+            sapiente maiores sed labore cumque.
+          </p>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+    </div>
+    <!-- End Our Features -->
+    <!-- Start Call To action -->
+    <div class="callToAction">
+      <div class="container">
+        <p>Lorem ipsum dolor sit amet.</p>
+        <h2>Testimonials Lorem ipsum dolor sit amet.</h2>
+        <a href="https://incodey.com/" target="_blank">Learn More</a>
+      </div>
+      <div class="clearfix"></div>
+    </div>
+    <!-- End Call To action -->
+    <!-- Start Contact Us -->
+    <div class="contact">
+      <div class="overlay"></div>
+      <div class="container">
+        <h2 class="main-heading heading">Contact Us</h2>
+        <form action="">
+          <div class="left">
+            <input type="text" placeholder="Your Name" name="username" />
+            <input type="number" placeholder="Your Phone" name="phone" />
+            <input type="email" placeholder="Your Email" name="email" />
+            <input type="text" placeholder="Subject" name="subject" />
+          </div>
+          <div class="right">
+            <textarea name="message" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send" />
+          </div>
+        </form>
+      </div>
+    </div>
+    <!-- End Contact Us -->
+    <!-- Start Footer -->
+    <div class="footer">
+      <a href="https://github.com/Bashar-Omar">© Training Project 2023</a>
+    </div>
+    <!-- End Footer -->
+    <script src="JS/script.js"></script>
+    <script src="JS/all.min.js"></script>
+  </body>
+</html>
